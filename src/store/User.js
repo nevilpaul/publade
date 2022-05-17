@@ -5,7 +5,7 @@ export const UserModule ={
    * a global varible that holds data for the entire application
    */
     state: {
-        user:null
+        user:null,
     },
     /**
      * 

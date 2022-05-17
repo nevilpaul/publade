@@ -1,4 +1,5 @@
 import { createStore } from 'vuex'
+import { PostsModules } from './Posts'
 import { UserModule } from './User'
 
 export default createStore({
@@ -27,6 +28,7 @@ export default createStore({
   actions: {
   },
   modules: {
-    User:UserModule
+    User:UserModule,
+    Posts:PostsModules
   }
 })
